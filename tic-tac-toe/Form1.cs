@@ -61,7 +61,7 @@ namespace tic_tac_toe
 
             short[,] index = new short[8,3]
             {
-                {0, 1, 2},  // check diagonally
+                {0, 1, 2},  // check vertically
                 {3, 4, 5},
                 {6, 7, 8},
                 {0, 3, 6},  // check horizontally
